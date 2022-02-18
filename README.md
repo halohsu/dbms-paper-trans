@@ -265,3 +265,14 @@
 ## 来自数据密集型应用设计(DDIA)的论文
 
 ## 百篇有意思的机器学习论文
+
+## 分布式系统相关的未分类
+
+* [共享内存同步技术](./分布式系统相关的未分类/Shared_Memory_Syncronization.pdf)
+
+## 数据库系统相关的未分类
+
+* [面向对象数据库系统的指针重组技术](./数据库系统相关的未分类/TR1242.pdf)
+* [使用BLOB还是不使用BLOB](./数据库系统相关的未分类/To_BLOB_or_Not_To_BLOB.pdf)
+* [WiscKey, 在SSD感知存储中将键与值分开](./数据库系统相关的未分类/WiscKey_Separating_Keys_from_Values_in_SSD-conscious_Storage.pdf)
+* [Cuckoo Hash算法](./数据库系统相关的未分类/pagh01cuckoo.pdf)
