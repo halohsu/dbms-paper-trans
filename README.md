@@ -166,7 +166,7 @@
 
 ## MIT 6.824 分布式系统
 
-* [MapReduce:大型集群上的简化数据处理](./mit_6_824_分布式系统/mapreduce.pdf)
+* :palm_tree: [MapReduce:大型集群上的简化数据处理](./mit_6_824_分布式系统/mapreduce.pdf) [查看翻译](./mit_6_824_分布式系统/mapreduce.pdf.zh_CN.md)
 * [比特币:一种点对点的电子现金系统](./mit_6_824_分布式系统/bitcoin.pdf)
 * [BlockStack:一个由区块链保护的全球命名和存储系统](./mit_6_824_分布式系统/blockstack-atc16.pdf)
 * [支持高吞吐量和可用性的链复制](./mit_6_824_分布式系统/cr-osdi04.pdf/cr-osdi04.pdf)
