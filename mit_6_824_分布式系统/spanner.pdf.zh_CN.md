@@ -147,11 +147,16 @@ Start: 写T_i的协调器领导者分配不小于TT.now()的值的提交时间�
 提交等待协调器负责人确保客户端看不到T_i util TT.after(S_i)为真时提交的任何数据。提交等待确保S_i小于T_i的绝对提交时间，或者S_i < t_abs(e_i^commit)提交等待的实现在4.2.1节中描述。证据:
 
 ```
-
+S_1 < t_abs(e_1^commit) (commit wait)
+t_abs(e_1^commit) < t_abs(e_2&start) (assumption)
+t_abs(e_2^start) <= t_abs(e_2^server) (causality)
+t_abs(e_2^server) <= S_2 (start)
+S_1 < S_2 (transitivity)
 ```
 
-
 ### 4.1.3 在时间戳提供读取服务
+
+4.1.2节中描述的单调性不变量允许扳手正确地确定副本的状态是否足够新以满足读取。每个副本跟踪一个名为安全时间t_safe的值，该值是副本最新的最大时间戳。如果t <= t_safe，则复制品可以满足在时间戳t的读取。
 
 ### 4.1.4 为只读事务分配时间戳
 
