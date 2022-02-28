@@ -16,26 +16,26 @@
 	* [A. Pavlo, et al., NewSQL有什么新功能?, in SIGMOD Record (vol. 45, iss. 2), 2016 (可选的)]()
 
 * 内存数据库
-	* [X. Yu, et al., 凝视深渊: 千核并发控制的评估, in VLDB, 2014]()
+	* [X. Yu, et al., 凝视深渊: 千核并发控制的评估, in VLDB, 2014](./cmu_15_721_高级数据库系统_春季_2020/p209-yu.pdf)
 	* [S. Harizopoulos, et al., 透过镜子看OLTP，我们在那里发现了什么, in SIGMOD, 2008 (可选的)]()
 	* [H. Garcia-Molina, et al., 主存数据库系统综述, in IEEE Trans. on Knowl. and Data Eng., 1992 (可选的)]()
 
 * 多版本并发控制 (设计决策)
-	* [Y. Wu, et al., 内存中多版本并发控制的实证评估, in VLDB, 2017]()
+	* [Y. Wu, et al., 内存中多版本并发控制的实证评估, in VLDB, 2017](./cmu_15_721_高级数据库系统_春季_2020/wu-vldb2017.pdf)
 	* [D.R.K. Ports, et al., PostgreSQL中的可序列化快照隔离, in VLDB, 2012 (可选的)]()
 	* [Y. Huang, et al., 竞争的主存多核事务中的乐观机会, in VLDB, 2020 (可选的)]()
 
 * 多版本并发控制 (协议)
-	* [T. Neumann, et al., 主存数据库系统的快速可串行化多版本并发控制, in SIGMOD, 2015]()
+	* [T. Neumann, et al., 主存数据库系统的快速可串行化多版本并发控制, in SIGMOD, 2015](./cmu_15_721_高级数据库系统_春季_2020/p677-neumann.pdf)
 	* [H. Lim, et al., Cicada:可靠快速的多核内存事务, in SIGMOD, 2017 (可选的)]()
 	* [P.-A. Larson, et al., 主存数据库的高性能并发控制机制, in VLDB, 2011 (可选的)]()
 
 * 多版本并发控制 (垃圾回收)
-	* [J. Böttcher, et al., 内存中MVCC系统的可扩展垃圾收集, in VLDB, 2019]()
+	* [J. Böttcher, et al., 内存中MVCC系统的可扩展垃圾收集, in VLDB, 2019](./cmu_15_721_高级数据库系统_春季_2020/p128-bottcher.pdf)
 	* [J. Lee, et al., 面向多版本并发控制的混合垃圾收集, in SIGMOD, 2016 (可选的)]()
 
 * OLTP 索引 (B+树 数据结构)
-	* [Z. Wang, et al., 构建一棵Bw树需要的不仅仅是流行语, in SIGMOD, 2018]()
+	* [Z. Wang, et al., 构建一棵Bw树需要的不仅仅是流行语, in SIGMOD, 2018](./cmu_15_721_高级数据库系统_春季_2020/mod342-wangA.pdf)
 	* [S.K. Cha, et al., 共享内存多处理器系统中主存索引的缓存感知并发控制, in VLDB, 2001 (可选的)]()
 	* [G. Graefe, B树锁定技术综述, in TODS, 2010 (可选的)]()
 	* [J. Levandoski, et al., B树:新型硬件的B树, in ICDE, 2013 (可选的)]()
@@ -43,20 +43,20 @@
 	* [T. Kissinger, et al., KISS树: 现代架构上的智能无闩锁内存索引, in DaMoN, 2012 (可选的)]()
 
 * OLTP 索引 (Trie 数据结构)
-	* [V. Alvarez, et al., 自适应基数树和哈希表的比较, in ICDE, 2015 ]()
+	* [V. Alvarez, et al., 自适应基数树和哈希表的比较, in ICDE, 2015 ](./cmu_15_721_高级数据库系统_春季_2020/alverez-icde2015.pdf)
 	* [V. Leis, et al., 自适应基数树:内存数据库的巧妙索引, in ICDE, 2013 (可选的)]()
 	* [V. Leis, et al., 实用同步的艺术, in DaMoN, 2016 (可选的)]()
 	* [R. Binna, et al., 热: 内存数据库系统的高度优化索引, in SIGMOD, 2018 (可选的)]()
 
 * 存储模型, 数据布局和系统目录
-	* [M. Athanassoulis, et al., 混合工作负载的最佳列布局, in VLDB, 2019 ]()
+	* [M. Athanassoulis, et al., 混合工作负载的最佳列布局, in VLDB, 2019 ](./cmu_15_721_高级数据库系统_春季_2020/p2393-athanassoulis.pdf)
 	* [J. Arulraj, et al., 连接混合工作负载的行存储和列存储, in SIGMOD, 2016 (可选的)]()
 	* [I. Alagiannis, et al., H2O: 免提自适应商店, in SIGMOD, 2014 (可选的)]()
 	* [M. Grund, et al., HYRISE: 主存储器混合存储引擎, in VLDB, 2010 (可选的)]()
 	* [D. Abadi, et al., 列存储与行存储: 他们真的有多不同?, in SIGMOD, 2008 (可选的)]()
 
 * 数据库压缩
-	* [D. Abadi, et al., 在面向列的数据库系统中集成压缩和执行, in SIGMOD, 2006 ]()
+	* [D. Abadi, et al., 在面向列的数据库系统中集成压缩和执行, in SIGMOD, 2006 ](./cmu_15_721_高级数据库系统_春季_2020/abadi-sigmod2006.pdf)
 	* [C. Binnig, et al., 基于字典的主存列存储保序字符串压缩, in SIGMOD, 2009 (可选的)]()
 	* [I. Müller, et al., 内存列存储数据库系统中的自适应字符串字典压缩, in EDBT, 2014 (可选的)]()
 	* [V. Raman, et al., 如何拧干表:关系的熵压缩和压缩关系的查询, in VLDB, 2006 (可选的)]()
@@ -64,31 +64,31 @@
 	* [C. Liu, et al., 大多是保序词典, in ICDE, 2019 (可选的)]()
 
 * 恢复协议
-	* [P. Antonopoulos, et al., Azure数据库中的常数时间恢复, in VLDB, 2019 ]()
+	* [P. Antonopoulos, et al., Azure数据库中的常数时间恢复, in VLDB, 2019 ](./cmu_15_721_高级数据库系统_春季_2020/p2143-antonopoulos.pdf)
 	* [W. Zheng, et al., 通过多核并行实现快速持久性和恢复的快速数据库, in OSDI, 2014 (可选的)]()
 	* [A. Goel, et al., 在Facebook快速重启数据库, in SIGMOD, 2014 (可选的)]()
 	* [K. Ren, et al., 主存数据库系统中的低开销异步检查点, in SIGMOD, 2016 (可选的)]()
 	* [N. Malviya, et al., 对主存OLTP恢复的再思考, in ICDE, 2014 (可选的)]()
 
 * 网络协议
-	* [M. Raasveldt, et al., 不要劫持我的数据:客户端协议重新设计案例, in VLDB, 2017 ]()
+	* [M. Raasveldt, et al., 不要劫持我的数据:客户端协议重新设计案例, in VLDB, 2017 ](./cmu_15_721_高级数据库系统_春季_2020/p1022-muehleisen.pdf)
 	* [F. Li, et al., 利用远程内存和RDMA加速关系数据库, in SIGMOD, 2016 (可选的)]()
 	* [F. Binnig, et al., 慢速网络的终结:是时候重新设计了, in VLDB, 2016 (可选的)]()
 
 * 调度
-	* [V. Leis, et al., Morsel驱动的并行性:一个面向众核时代的NUMA感知查询评估框架, in SIGMOD, 2014 ]()
+	* [V. Leis, et al., Morsel驱动的并行性:一个面向众核时代的NUMA感知查询评估框架, in SIGMOD, 2014 ](./cmu_15_721_高级数据库系统_春季_2020/p743-leis.pdf)
 	* [I. Psaroudakis, et al., 扩大并发主内存列存储扫描:实现自适应NUMA感知数据和任务布局, in VLDB, 2015 (可选的)]()
-	* [I. Psaroudakis, et al., 面向高并发分析和事务性主存工作负载的任务调度               , in ADMS, 2013 (可选的)]()
+	* [I. Psaroudakis, et al., 面向高并发分析和事务性主存工作负载的任务调度, in ADMS, 2013 (可选的)]()
 	* [D. Porobic, et al., 硬件孤岛上的OLTP, in VLDB, 2012 (可选的)]()
 
 * 查询执行和处理
-	* [M. Kester, et al., 主存优化数据系统中的访问路径选择:我应该扫描还是应该探测?, in SIGMOD, 2017 ]()
+	* [M. Kester, et al., 主存优化数据系统中的访问路径选择:我应该扫描还是应该探测?, in SIGMOD, 2017 ](./cmu_15_721_高级数据库系统_春季_2020/kester-sigmod17.pdf)
 	* [P. Boncz, et al., MonetDB/X100: 超流水线查询执行, in CIDR, 2005 (可选的)]()
 	* [L. Shrinivas, et al., 垂直分析数据库中的物化策略:经验教训, in ICDE, 2013 (可选的)]()
 	* [A. Mishra, et al., 使用动态内存表达式加速分析, in VLDB, 2016 (可选的)]()
 
 * 查询编译
-	* [T. Neumann, 高效编译现代硬件的高效查询计划, in VLDB, 2011 ]()
+	* [T. Neumann, 高效编译现代硬件的高效查询计划, in VLDB, 2011 ](./cmu_15_721_高级数据库系统_春季_2020/p539-neumann.pdf)
 	* [K. Krikellas, et al., 生成用于整体查询评估的代码, in ICDE, 2010 (可选的)]()
 	* [H. Pirk, et al., 内存驻留数据库的中央处理器和高速缓存高效管理, in ICDE, 2013 (可选的)]()
 	* [B. Raducanu, et al.,矢量方向的微适应性, in SIGMOD, 2013 (可选的)]()
@@ -96,70 +96,70 @@
 	* [A. Kohn, et al., 编译查询的自适应执行, in ICDE, 2018 (可选的)]()
 
 * 矢量化执行
-	* [O. Polychroniou, et al., 内存数据库SIMD矢量化的再思考, in SIGMOD, 2015 ]()
+	* [O. Polychroniou, et al., 内存数据库SIMD矢量化的再思考, in SIGMOD, 2015 ](./cmu_15_721_高级数据库系统_春季_2020/p1493-polychroniou.pdf)
 	* [T. Thomas Willhalm, et al., SIMD扫描:使用片内矢量处理单元的超快速内存表扫描, in VLDB, 2009 (可选的)]()
 	* [Y. Li, et al., 位编织:主存数据处理的快速扫描, in SIGMOD, 2013 (可选的)]()
 
 * 矢量化与编译
-	* [T. Kersten, et al., 关于编译和矢量化查询，您一直想知道但又不敢问的一切, in VLDB, 2018 ]()
+	* [T. Kersten, et al., 关于编译和矢量化查询，您一直想知道但又不敢问的一切, in VLDB, 2018 ](./cmu_15_721_高级数据库系统_春季_2020/p2209-kersten.pdf)
 	* [P. Menon, et al., 内存数据库的松弛算子融合:最终使编译、矢量化和预取协同工作, in VLDB, 2017 (可选的)]()
 	* [J. Sompolski, et al., 查询执行中的矢量化与编译, in DaMoN, 2011 (可选的)]()
 	* [H. Lang, et al., 数据块:使用矢量化和编译的压缩存储上的混合OLTP和OLAP, in SIGMOD, 2016 (可选的)]()
 
 * 并行联合算法 (Hash))
-	* [S. Schuh, et al., 内存中十三个关系等连接的实验比较, in SIGMOD, 2016 ]()
+	* [S. Schuh, et al., 内存中十三个关系等连接的实验比较, in SIGMOD, 2016 ](./cmu_15_721_高级数据库系统_春季_2020/schuh-sigmod2016.pdf)
 	* [S. Richter, et al., 哈希方法的七维分析及其对查询处理的启示, in VLDB, 2015 (可选的)]()
 	* [S. Blanas, et al., 多核处理器主存散列连接算法的设计与评估, in SIGMOD, 2011 (可选的)]()
 	* [C. Balkesen, et al., 多核处理器上的主存散列连接:调整到底层硬件, in ICDE, 2013 (可选的)]()
 
 * 并行联合算法 (排序)
-	* [C. Balkesen, et al., 多核主内存连接:排序与散列的再探讨, in VLDB, 2013 ]()
+	* [C. Balkesen, et al., 多核主内存连接:排序与散列的再探讨, in VLDB, 2013 ](./cmu_15_721_高级数据库系统_春季_2020/p85-balkesen.pdf)
 	* [C. Kim, et al., 重新审视排序与散列:现代多核处理器上的快速连接实现, in VLDB, 2009 (可选的)]()
 	* [G. Graefe, et al., 重新审视排序和散列, in TKDE, 1994 (可选的)]()
 	* [M.-C. Albutiu, et al., 主存多核数据库系统中的大规模并行排序合并连接, in VLDB, 2012 (可选的)]()
 
 * 优化器实现 (概览)
-	* [S. Chaudhuri, 关系系统中的查询优化综述, in PODS, 1998 ]()
+	* [S. Chaudhuri, 关系系统中的查询优化综述, in PODS, 1998 ](./cmu_15_721_高级数据库系统_春季_2020/chaudhuri-pods1998.pdf)
 	* [G. Graefe, et al., 火山优化生成器:可扩展性和高效搜索, in ICDE, 1993 (可选的)]()
 	* [G. Graefe, 查询优化的级联框架, in IEEE Data Engineering Bulletin, 1995 (可选的)]()
 	* [M.A. Soliman, et al., Orca:面向大数据的模块化查询优化器架构, in SIGMOD, 2014 (可选的)]()
 	* [L.D. Shapiro, et al., 在自顶向下查询优化中利用上下限, in IDEAS, 2001 (可选的)]()
 
 * 优化器实现 (自上而下与自下而上)
-	* [Yongwen Xu, 哥伦比亚数据库查询优化器的效率 (1-35页), in Portland State University, 1998 ]()
+	* [Yongwen Xu, 哥伦比亚数据库查询优化器的效率 (1-35页), in Portland State University, 1998 ](./cmu_15_721_高级数据库系统_春季_2020/xu-columbia-thesis1998.pdf)
 	* [J. Chen, et al., 内存SQL查询优化器, in VLDB, 2017 (可选的)]()
 	* [G. Moerkotte, et al., 动态规划反击, in SIGMOD, 2008 (可选的)]()
 	* [T. Neumann, et al., 连接的完整故事(在HyPer), in BTW, 2017 (可选的)]()
 	* [E. Begoli, et al., Apache Calcite: 异构数据源上优化查询处理的基础框架, in SIGMOD, 2018 (可选的)]()
 
 * 优化器实现 (替代方法)
-	* [B. Ding, et al., 计划缝合:利用许多计划中最好的, in VLDB, 2018 ]()
+	* [B. Ding, et al., 计划缝合:利用许多计划中最好的, in VLDB, 2018 ](./cmu_15_721_高级数据库系统_春季_2020/p1123-ding.pdf)
 	* [S. Babu, et al., 窥镜中的自适应查询处理, in CIDR, 2015 (可选的)]()
 	* [J. Zhu, et al., 展望未来让查询计划变得强大, in VLDB, 2017 (可选的)]()
 	* [R. Marcus, et al., Neo:一种学习型查询优化器, in VLDB, 2019 (可选的)]()
 	* [I. Trummer, et al., SkinnerDB: 基于强化学习的后悔有界查询评估, in SIGMOD, 2019 (可选的)]()
 
 * 代价模型
-	* [V. Leis, et al., 查询优化器到底有多好?, in VLDB, 2015 ]()
+	* [V. Leis, et al., 查询优化器到底有多好?, in VLDB, 2015 ](./cmu_15_721_高级数据库系统_春季_2020/p204-leis.pdf)
 	* [M. Stillger, et al., LEO - DB2的学习优化器, in VLDB, 2001 (可选的)]()
 	* [Z. Yang, et al., 深度无监督基数估计, in VLDB, 2019 (可选的)]()
 	* [J. Sun, et al., 基于端到端学习的成本估算器, in VLDB, 2019 (可选的)]()
 	* [D. Vengerov, et al., 根据筛选条件估计连接大小, in VLDB, 2015 (可选的)]()
 	* [Y. Chen, et al., 用于连接大小估计的两级抽样, in SIGMOD, 2017 (可选的)]()
 
-* 大于内存的数据库
-	* [V. Leis, et al., LeanStore: 主存之外的内存数据管理, in ICDE, 2018 ]()
+* 大内存的数据库
+	* [V. Leis, et al., LeanStore: 主存之外的内存数据管理, in ICDE, 2018 ](./cmu_15_721_高级数据库系统_春季_2020/leis-icde2018.pdf)
 	* [J. DeBrabant, et al., Anti-Caching: 数据库管理系统体系结构的新方法, in VLDB, 2013 (可选的)]()
 	* [R. Stoica, et al., 为主存OLTP数据库启用高效的操作系统分页, in DaMoN, 2013 (可选的)]()
 	* [G. Graefe, et al., 大数据的内存性能, in VLDB, 2014 (可选的)]()
 	* [L. Ma, et al., 内存中OLTP数据库系统现代存储硬件上的大内存数据管理, in DaMoN, 2016 (可选的)]()
 
 * 服务器端逻辑执行
-	* [K. Ramachandra, et al., Froid: 关系数据库中命令程序的优化, in VLDB, 2017 ]()
+	* [K. Ramachandra, et al., Froid: 关系数据库中命令程序的优化, in VLDB, 2017 ](./cmu_15_721_高级数据库系统_春季_2020/p432-ramachandra.pdf)
 	* [C. Duta, et al., 编译PL/SQL离开, in CIDR, 2020 (可选的)]()
 
 * 新型硬件上的数据库
-	* [J. Arulraj, et al., 写后日志记录, in VLDB, 2016 ]()
+	* [J. Arulraj, et al., 写后日志记录, in VLDB, 2016 ](./cmu_15_721_高级数据库系统_春季_2020/p337-arulraj.pdf)
 	* [M. Owaida, et al., Centaur: 一种混合式中央处理器-现场可编程门阵列数据库框架, in FCCM, 2017 (可选的)]()
 	* [H. Kimura, FOEDUS: 面向千核和非易失性内存的OLTP引擎, in SIGMOD, 2015 (可选的)]()
 	* [J. Power, et al., 图形处理器成为分析处理的主流, in DaMoN, 2015 (可选的)]()
