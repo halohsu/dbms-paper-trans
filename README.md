@@ -174,7 +174,7 @@
 * [Google文件系统](./mit_6_824_分布式系统/gfs.pdf)
 * [使用分布式、可扩展、方法化文件系统的体验:AnalogicFS](./mit_6_824_分布式系统/katabi-analogicfs.pdf)
 * [安全不可信数据存储库](./mit_6_824_分布式系统/li-sundr.pdf)
-* [寻找可理解的共识算法(扩展版)](./mit_6_824_分布式系统/raft-extended.pdf)
+* :palm_tree: [寻找可理解的共识算法(扩展版)](./mit_6_824_分布式系统/raft-extended.pdf) [查看翻译](./mit_6_824_分布式系统/raft-extended.pdf.zh_CN.md)
 * [Spanner:Google的全球分布式数据库](./mit_6_824_分布式系统/spanner.pdf)
 * [Frangipani:一个可扩展的分布式文件系统](./mit_6_824_分布式系统/thekkath-frangipani.pdf)
 * [一个实用的容错虚拟机系统的设计](./mit_6_824_分布式系统/vm-ft.pdf)
