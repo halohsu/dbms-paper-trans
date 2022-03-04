@@ -16,7 +16,7 @@
 	* [A. Pavlo, et al., NewSQL有什么新功能?, in SIGMOD Record (vol. 45, iss. 2), 2016 (可选的)]()
 
 * 内存数据库
-	* [X. Yu, et al., 凝视深渊: 千核并发控制的评估, in VLDB, 2014](./cmu_15_721_高级数据库系统_春季_2020/p209-yu.pdf)
+	* :palm_tree: [X. Yu, et al., 凝视深渊: 千核并发控制的评估, in VLDB, 2014](./cmu_15_721_高级数据库系统_春季_2020/p209-yu.pdf) [查看翻译](./cmu_15_721_高级数据库系统_春季_2020/p209-yu.pdf.md)
 	* [S. Harizopoulos, et al., 透过镜子看OLTP，我们在那里发现了什么, in SIGMOD, 2008 (可选的)]()
 	* [H. Garcia-Molina, et al., 主存数据库系统综述, in IEEE Trans. on Knowl. and Data Eng., 1992 (可选的)]()
 
