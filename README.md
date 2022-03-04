@@ -274,5 +274,6 @@
 
 * [面向对象数据库系统的指针重组技术](./数据库系统相关的未分类/TR1242.pdf)
 * [使用BLOB还是不使用BLOB](./数据库系统相关的未分类/To_BLOB_or_Not_To_BLOB.pdf)
-* [WiscKey, 在SSD感知存储中将键与值分开](./数据库系统相关的未分类/WiscKey_Separating_Keys_from_Values_in_SSD-conscious_Storage.pdf)
+* :palm_tree: [WiscKey, 在SSD感知存储中将键与值分开](./数据库系统相关的未分类/WiscKey_Separating_Keys_from_Values_in_SSD-conscious_Storage.pdf) [查看翻译](./数据库相关的未分类/WiscKey_Separating_Keys_from_Values_in_SSD-conscious_Storage.pdf.md)
 * [Cuckoo Hash算法](./数据库系统相关的未分类/pagh01cuckoo.pdf)
+* [LSM树](./数据库相关的未分类/lsmtree.pdf)
